@@ -8,19 +8,11 @@ Utilities for handling optional data in Pony.
 
 ## Installation
 
-* Install [pony-stable](https://github.com/ponylang/pony-stable)
-* Update your `bundle.json`
-
-```json
-{ 
-  "type": "github",
-  "repo": "mfelsche/pony-maybe"
-}
-```
-
-* `stable fetch` to fetch your dependencies
+* Install [corral](https://github.com/ponylang/corral)
+* `corral add github.com/mfelsche/pony-maybe.git --version master`
+* `corral fetch` to fetch your dependencies
 * `use "maybe"` to include this package
-* `stable env ponyc` to compile your application
+* `corral run -- ponyc` to compile your application
 
 ## Usage
 

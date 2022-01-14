@@ -1,0 +1,14 @@
+{
+  "packages": [
+    "maybe"
+  ],
+  "deps": [],
+  "info": {
+    "description": "Utilities for working with optional values in Pony",
+    "homepage": "https://github.com/mfelsche/pony-maybe",
+    "license": "",
+    "documentation_url": "https://github.com/mfelsche/pony-maybe",
+    "version": "0.1.0",
+    "name": "pony-maybe"
+  }
+}

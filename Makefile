@@ -1,7 +1,8 @@
 PONYC ?= ponyc
 
 build/maybe: build maybe/*.pony
-	stable env $(PONYC) maybe -o build --debug
+	corral fetch
+	corral run -- $(PONYC) maybe -o build --debug
 
 build:
 	mkdir build
