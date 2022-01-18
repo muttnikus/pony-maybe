@@ -33,7 +33,7 @@ primitive Opt
       end
     end
 
-  fun apply[T](opt: Maybe[T], operation: {(T): None}): None =>
+  fun apply[T](opt: Maybe[T], operation: {ref(T): None} ref): None =>
     match consume opt
     | let o: T => operation.apply(consume o)
     end
